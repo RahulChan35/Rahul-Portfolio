@@ -371,21 +371,15 @@ color: blue;
     justify-content: center;
     flex-direction: column-reverse;
   }
-  
-  .home-component > .top > .left {
-    margin-left: 50px;
-  }
 
   .home-component > .top {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 400px;
-    margin: 30px;
   }
 
   .home-component > .bottom {
-    margin-left: 60px;
     width: 350px;
   }
 }
@@ -394,7 +388,6 @@ color: blue;
 
 @media only screen and (max-width: 600px) {
   .about-container {
-    margin: 15px;
       height:800px;
       width: 400px;
   }
@@ -461,7 +454,6 @@ color: blue;
   }
 
   .left-single-project > .left > img {
-    margin: 20px;
     width: 400px;
     height: 300px;
   }
