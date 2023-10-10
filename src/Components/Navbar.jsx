@@ -1,14 +1,19 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import MenuIcon from "@mui/icons-material/Menu";
+import SideBar from "./SideBar";
+
+import { useSidebarContext } from "../App";
 
 const Navbar = () => {
+  const { showSidebar, setShowSidebar, toggle } = useSidebarContext();
   return (
     <div className="navbar">
       <div className="name-container">
         <h3>Rahul.dev</h3>
       </div>
-      <MenuIcon className="menu-icon" />
+      {!showSidebar && <MenuIcon className="menu-icon" onClick={toggle} />}
+      {showSidebar && <SideBar />}
       <div className="navigation-container">
         <AnchorLink href="#home" className="navigation-text">
           Home
