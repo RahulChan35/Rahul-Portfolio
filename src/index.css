@@ -336,7 +336,7 @@ color: blue;
 /* NAVBAR.css */
 @media only screen and (max-width: 600px) {
   .navbar {
-    width: 650px;
+    width: 41s0px;
     margin-left: 0px;
   }
 
@@ -367,13 +367,13 @@ color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 600px;
+    width: 400px;
     margin: 30px;
   }
 
   .home-component > .bottom {
     margin-left: 50px;
-    width: 500px;
+    width: 400px;
   }
 }
 
@@ -383,7 +383,7 @@ color: blue;
   .about-container {
     margin: 15px;
       height: 620px;
-      width: 620px;
+      width: 400px;
   }
 
   .about-component {
@@ -391,22 +391,22 @@ color: blue;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;    
-    width: 620px;
+    width: 400px;
     height: 620px;
   }
 
   .about-component > .left {
     display: block;
-    width: 620px;
+    width: 400px;
     height: 400px;
   }
 
   .about-component > .left > .parent {
-    width: 640px;
+    width: 400px;
   }
 
   .about-component > .left > .parent > .first-child > img {
-    width: 640px;
+    width: 400px;
     height: 400px;
   }
 
@@ -415,7 +415,7 @@ color: blue;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    width: 620px;
+    width: 400px;
     height: 200px;
   }
 }
@@ -429,12 +429,12 @@ color: blue;
   }
 
   .project-component > .all-projects {
-    width: 620px;
+    width: 400px;
     height: 600px;
   }
 
   .left-single-project  {
-    width: 620px;
+    width: 400px;
     height: 550px;
     display: flex;
     align-items: center;
@@ -449,12 +449,12 @@ color: blue;
 
   .left-single-project > .left > img {
     margin: 20px;
-    width: 620px;
+    width: 400px;
     height: 300px;
   }
 
   .left-single-project > .right {
-    width: 520px;
+    width: 400px;
     height: 300px;
     display: flex;
     align-items: center;
@@ -469,11 +469,11 @@ color: blue;
 /* CONTACT.css */
 @media only screen and (max-width: 600px) {
   .contact-container {
-    width: 620px;
+    width: 400px;
   }
 
   .contact-component {
-    width: 620px;
+    width:400px;
     height: 100px;
     display: flex;
     align-items: center;
