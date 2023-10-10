@@ -130,7 +130,7 @@ p {
 }
 
 .bottom > .right {
-  width: 300px;
+  width: 200px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -336,7 +336,9 @@ color: blue;
 /* NAVBAR.css */
 @media only screen and (max-width: 600px) {
   .navbar {
-    width: 41s0px;
+    position: sticky;
+    top: 0;
+    width: 410px;
     margin-left: 0px;
   }
 
@@ -372,8 +374,8 @@ color: blue;
   }
 
   .home-component > .bottom {
-    margin-left: 50px;
-    width: 400px;
+    margin-left: 20px;
+    width: 350px;
   }
 }
 
