@@ -64,6 +64,10 @@ p {
   font-size: 15px;
 }
 
+.navbar > .menu-icon {
+  display: none;
+}
+
 
 
 
@@ -339,10 +343,6 @@ color: blue;
     top: 0;
     width: 410px;
     margin-left: 0px;
-  }
-
-  .navigation-container {
-    display: none;
   }
 
     .sidebar {
