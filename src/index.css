@@ -345,6 +345,10 @@ color: blue;
     margin-left: 0px;
   }
 
+  .navigation-container { 
+    display: none;
+  }
+
     .sidebar {
       position: relative;
       z-index: 2;
