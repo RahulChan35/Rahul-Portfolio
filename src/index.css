@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@800&family=Roboto:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Martian Mono', monospace;
+}
+
+p {
+  font-family: 'Martian Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(91, 91, 255);
+}
+
+
+/* DESKTOP */
+
+/* NAVBAR.css */
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 40px;
+  background-color: white;
+  height: 50px;
+}
+
+.navbar > .menu-icon {
+  display: none;
+}
+
+.navigation-container{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.navigation-text{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* HOME.css */
+.home-container{
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-component {
+  height: 370px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.home-component > .bottom > .left > p {
+  font-family: 'Martian Mono', monospace;
+}
+
+.home-component > .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+  width: 800px;
+}
+
+.top > .left {
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 400px;
+  height: 250px;
+}
+
+.top > .left > .icon-group {
+  width: 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.top > .right > .image-container > img {
+  border-radius: 999px;
+}
+
+.bottom {
+  height: 100px;
+  width: 500px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+
+.bottom > .right {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bottom > .right > img {
+  height: 25px;
+  width: 25px;
+}
+
+/* ABOUT.css */
+.about-container{
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-component {
+  width: 800px;
+  display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about-component > .left {
+  width: 370px;
+}
+
+.about-component > .left > .parent {
+  width: 370px;
+  height: 325px;
+}
+
+.about-component > .left > .parent > .second-child {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 999px;
+  bottom: 0;
+  right: 0;
+}
+
+.about-component>.left>.parent>.second-child > p{
+    background-color: white;
+    font-size: 100px;
+    border-radius: 999px;
+    bottom: 10px;
+    right: 0;
+}
+
+
+.about-component > .left > .parent > .first-child > img {
+  width: 350px;
+    height: 300px;
+    z-index: -1;
+}
+
+.about-component > .right {
+  width: 370px;
+  height: 320px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.about-component>.right>h5 {
+  color: blue;
+}
+
+
+/* PROJECTS.css */
+.projects-container {
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-component > .header {
+  height: 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.project-component {
+  height: 550px;
+  width: 900px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.project-component > .header > h5 {
+color: blue;
+}
+
+.all-projects {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left-single-project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  width: 650px;
+}
+
+.left-single-project > .left > img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.left-single-project > .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+}
+
+.tech-stacks {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.resource {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.resource > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CONTACT.css */
+.contact-container {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-component > h5 {
+  color: blue;
+}
+
+.personal-details-container {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.personal-details-container > div {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.contact-icons {
+  color: blue;
+}
+
+/* FOOTER.css */
+.footer {
+  height: 40px;
+  width: 100%;
+  padding-top: 15px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+/* DESKTOP */
+
+
+
+
+/* MOBILE */
+
+/* NAVBAR.css */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    width: 650px;
+    margin-left: 0px;
+  }
+
+  .navbar > .menu-icon {
+    display: block;
+  }
+
+  .navigation-container {
+    display: none;
+  }
+}
+
+/* HOME.css */
+
+@media only screen and (max-width: 600px) {
+  .home-container {
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+  }
+
+  .home-container > .home-component {
+    height: 300px;
+    width: 400px;
+  }
+
+  .home-component > .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 30px;
+  }
+
+  .home-component > .bottom {
+    margin-left: 50px;
+    width: 500px;
+  }
+}
+
+/* ABOUT.css */
+
+@media only screen and (max-width: 600px) {
+  .about-container {
+    margin: 15px;
+      height: 620px;
+      width: 620px;
+  }
+
+  .about-component {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;    
+    width: 620px;
+    height: 620px;
+  }
+
+  .about-component > .left {
+    display: block;
+    width: 620px;
+    height: 400px;
+  }
+
+  .about-component > .left > .parent {
+    width: 640px;
+  }
+
+  .about-component > .left > .parent > .first-child > img {
+    width: 640px;
+    height: 400px;
+  }
+
+  .about-component > .right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 620px;
+    height: 200px;
+  }
+}
+
+/* PROJECTS.css */
+
+@media only screen and (max-width: 600px) {
+  .project-component {
+    width: 400px;
+    height: 620px;
+  }
+
+  .project-component > .all-projects {
+    width: 620px;
+    height: 600px;
+  }
+
+  .left-single-project  {
+    width: 620px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .left-single-project > .left {
+    width: 620px;
+  }
+
+  .left-single-project > .left > img {
+    margin: 20px;
+    width: 620px;
+    height: 300px;
+  }
+
+  .left-single-project > .right {
+    width: 520px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left-single-project > .right > .tech-stacks {
+    width: 200px;
+  }
+}
+
+/* CONTACT.css */
+@media only screen and (max-width: 600px) {
+  .contact-container {
+    width: 620px;
+  }
+
+  .contact-component {
+    width: 620px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+/* FOOTER.css */
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    width: 700px;
+  }
+}
+
+/* MOBILE */
