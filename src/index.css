@@ -395,7 +395,7 @@ color: blue;
 @media only screen and (max-width: 600px) {
   .about-container {
     margin: 15px;
-      height: 620px;
+      height:800px;
       width: 400px;
   }
 
@@ -405,7 +405,7 @@ color: blue;
     justify-content: space-between;
     flex-direction: column;    
     width: 400px;
-    height: 620px;
+    height: 650px;
   }
 
   .about-component > .left {
@@ -443,7 +443,7 @@ color: blue;
 
   .project-component > .all-projects {
     width: 400px;
-    height: 600px;
+    height: 650px;
   }
 
   .left-single-project  {
@@ -457,7 +457,7 @@ color: blue;
 
 
   .left-single-project > .left {
-    width: 620px;
+    width: 400px;
   }
 
   .left-single-project > .left > img {
@@ -499,7 +499,7 @@ color: blue;
 
 @media only screen and (max-width: 600px) {
   .footer {
-    width: 700px;
+    width: 400px;
   }
 }
 
