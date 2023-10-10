@@ -369,12 +369,23 @@ color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column-reverse;
+  }
+  
+  .home-component > .top > .left {
+    margin-left: 50px;
+  }
+
+  .home-component > .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 400px;
     margin: 30px;
   }
 
   .home-component > .bottom {
-    margin-left: 20px;
+    margin-left: 60px;
     width: 350px;
   }
 }
