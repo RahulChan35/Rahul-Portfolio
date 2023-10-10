@@ -358,6 +358,7 @@ color: blue;
     display: inline-block;
     height: 400px;
     width: 400px;
+    margin: 20px;
   }
 
   .home-container > .home-component {
@@ -380,6 +381,7 @@ color: blue;
   }
 
   .home-component > .bottom {
+    margin: 30px;
     width: 350px;
   }
 }
@@ -390,6 +392,7 @@ color: blue;
   .about-container {
       height:800px;
       width: 400px;
+      margin: 10px;
   }
 
   .about-component {
