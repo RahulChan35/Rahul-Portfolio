@@ -363,7 +363,7 @@ color: blue;
     }
   
     .sidebar-navigation-text {
-      padding-top: 50px;
+      padding: 25px;
     }
 }
 
@@ -374,7 +374,7 @@ color: blue;
     display: inline-block;
     height: 400px;
     width: 400px;
-    margin: 20px;
+    margin: 30px;
   }
 
   .home-container > .home-component {

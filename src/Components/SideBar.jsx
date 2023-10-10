@@ -19,16 +19,36 @@ const SideBar = () => {
           onClick={toggle}
         />
         <div className="sidebar-navigation-container">
-          <AnchorLink href="#home" className="sidebar-navigation-text">
+          <AnchorLink
+            href="#home"
+            className="sidebar-navigation-text"
+            onClick={toggle}
+            style={{ color: "black", textDecoration: "none" }}
+          >
             Home
           </AnchorLink>
-          <AnchorLink href="#about" className="sidebar-navigation-text">
+          <AnchorLink
+            href="#about"
+            className="sidebar-navigation-text"
+            onClick={toggle}
+            style={{ color: "black", textDecoration: "none" }}
+          >
             About
           </AnchorLink>
-          <AnchorLink href="#projects" className="sidebar-navigation-text">
+          <AnchorLink
+            href="#projects"
+            className="sidebar-navigation-text"
+            onClick={toggle}
+            style={{ color: "black", textDecoration: "none" }}
+          >
             Projects
           </AnchorLink>
-          <AnchorLink href="#contact" className="sidebar-navigation-text">
+          <AnchorLink
+            href="#contact"
+            className="sidebar-navigation-text"
+            onClick={toggle}
+            style={{ color: "black", textDecoration: "none" }}
+          >
             Contact
           </AnchorLink>
         </div>
